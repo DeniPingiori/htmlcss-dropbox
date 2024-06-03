@@ -27,6 +27,11 @@ padding: 15px 0px;
 background-color: darkgreen;
 }
 
+.container1 {
+    max-width: 900px;
+    margin:0 auto;
+    background-color: rgb(4, 178, 241);
+    }
 .row {
 display:flex;
 flex-wrap: wrap;
@@ -34,14 +39,23 @@ flex-wrap: wrap;
 .col-25 {
     width:calc(100%/4);
     background-color: blueviolet;
-     200px;
+    height: 200px;
+}
+.col-50 {
+    width:calc(100%/2);
+    background-color: rgb(226, 125, 43);
+    height:200px;
 }
 .content {
     margin: 10px;
     background-color: cadetblue;
     height:75px;
 }
-
+.content1 {
+    margin: 10px;
+    background-color: rgb(208, 97, 182);
+    height:75px;
+}
 /*page style*/
 
 /*utility*/
