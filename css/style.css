@@ -4,10 +4,10 @@
     box-sizing:border-box;
 }
 body {
-
+font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color: lightgreen;
+    background-color:white;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -24,56 +24,25 @@ footer {
 .container {
 width: 1200px;
 padding: 15px 0px;
+background-color: darkgreen;
 }
+
 .row {
 display:flex;
+flex-wrap: wrap;
+}
+.col-25 {
+    width:calc(100%/4);
+    background-color: blueviolet;
+     200px;
 }
 .content {
     margin: 10px;
-}
-.content-header {
-margin: 10px;
-padding-top: 5px;
-align-content: end;
+    background-color: cadetblue;
+    height:75px;
 }
 
-.col-10 {
-width: 60%;
-}
-.col-20 {
-    width: 40%;
-    align-content: end;
-}
 /*page style*/
-.list-unstiled {
-    list-style-type: none;
-    padding-top: 5px;
-}
-
-.list-unstiled li {
-    display: inline-block;
-    padding: 0px 15px;
-}
-
-.list-unstiled li a {
-    text-decoration: none;
-    font-weight: 600;
-    color: white;
-}
 
 /*utility*/
-.text-right {
-    text-align: right;
-}
 
-.text-left {
-    text-align: left;
-}
-.py-10 {
-    padding: 10px 0;
-}
-
-.btn-lightblue {
-    background-color: rgb(54, 85, 239);
-    color:white;
-}
