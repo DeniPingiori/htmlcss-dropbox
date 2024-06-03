@@ -62,4 +62,24 @@ flex-wrap: wrap;
     background-color: white;
 }
 /*utility*/
+.text-center {
+    text-align: center;
+}
+.py-10 {
+    padding: 10px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
 
+.ul.text-center {
+    list-style-type: none;
+}
+.ul.text-center li {
+    display:inline-block;
+    margin-top: 0px 20px;
+}
+.ul.text-center li a {
+    text-decoration: none;
+    color: darkblue;
+}
